@@ -19,6 +19,27 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## Hello, GitHub! web app
+
+This repository also includes a small Angular frontend and a Node.js API. To run
+the app, start the API in one terminal:
+
+```sh
+node backend/server.js
+```
+
+In another terminal, install the frontend dependencies and start Angular:
+
+```sh
+cd frontend
+npm install
+npm start
+```
+
+Open the local URL printed by Angular. Its development server proxies `/api`
+requests to the Node.js server on port 3000. Run the backend test with
+`node --test backend/server.test.js` from the repository root.
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.

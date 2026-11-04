@@ -1,0 +1,29 @@
+main {
+  display: grid;
+  min-height: 100dvh;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+section {
+  max-width: 36rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.75rem;
+}
+
+.greeting {
+  min-height: 1.5em;
+  font-weight: 600;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+}
