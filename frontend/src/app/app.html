@@ -1,0 +1,10 @@
+<main>
+  <section>
+    <h1>Hello, GitHub!</h1>
+    <p>A small Angular frontend connected to a Node.js backend.</p>
+    <p class="greeting" role="status">{{ greeting() }}</p>
+    <button type="button" [disabled]="loading()" (click)="loadGreeting()">
+      {{ loading() ? 'Loading…' : 'Try again' }}
+    </button>
+  </section>
+</main>
